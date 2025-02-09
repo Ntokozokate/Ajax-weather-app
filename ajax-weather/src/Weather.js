@@ -30,7 +30,7 @@ export default function Weather() {
 
   return (
     <div className="container">
-      <h1>Weather Search</h1>
+      <h1>Ajax Weather Search</h1>
       <form onSubmit={handleSubmit} className="mb-3">
         <div className="form-group">
           <label htmlFor="city">Enter City Name:</label>
